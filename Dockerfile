@@ -1,4 +1,4 @@
 FROM openjdk:11
-ADD target/Broadband-docker.jar MyTelstra/Broadband-docker.jar
+ADD target/broadband-docker.jar broadband-docker.jar
 EXPOSE 8088
-ENTRYPOINT ["java","-jar","Broadband-docker.jar"]
+ENTRYPOINT ["java","-jar","broadband-docker.jar"]
